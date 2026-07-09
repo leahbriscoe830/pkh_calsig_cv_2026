@@ -23,3 +23,9 @@ This script requires three TIF files as input: cytosolic calcium channel (561_re
 For each experiment/cell, the Gaussian blur in the creation of the motion masks, as well as the eps and min_samples parameters in the DBSCAN centroid clustering, may need adjustments to get the desired ROI size and amount.
 
 ## Outputs
+* {experiment}_mapped_rois.png: Displays the ROI centroids and bounding boxes on an example frame from the cytosolic channel. ROIs are labeled at the top left corner of the bounding box.
+* {experiment}_avg_cyt_int.png: Displays ROIs, like in the mapped_rois.png, with the average pixel intensities for the cytosolic Ca channel across frames for each ROI.
+* {experiment}_avg_tract_int.png: Similar to avg_cyt_int.png; displays the average pixel intensities for the traction force channel across frames for each ROI.
+* {experiment}_avg_mit_int.png: Similar to avg_cyt_int.png; displays the average pixel intensities for the mitochondrial Ca channel across frames for each ROI.
+* {experiment}_cyt_facet.png: Subplots for each ROI showing the average pixel intensity for the cytosolic Ca channel over time.
+* {experiment}_tract_facet.png: Subplots for each ROI showing the average pixel intensity for the traction force channel over time.
