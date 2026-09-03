@@ -42,6 +42,8 @@ Running the script to extract calcium transients will save generated ROIs as {ex
 * {experiment}_mit_facet.png: Subplots for each ROI showing the average pixel intensity for the mitochondrial Ca channel over time.
 
 ## Citations
+Bhandari, M. (2024). Grad-CAM: A beginner’s Guide. Medium. https://medium.com/@bmuskan007/grad-cam-a-beginners-guide-adf68e80f4bb
+
 Bradski, G. (2000). The OpenCV Library. Dr. Dobb's Journal of Software Tools, 25, 120-125.
 
 Fang, X., Bogdanov, V., Davis, J. P., & Kekenes-Huskey, P. M. (2023). Molecular Insights into the MLCK Activation by CaM. Journal of chemical information and modeling, 63(23), 7487–7498. https://doi.org/10.1021/acs.jcim.3c00954
